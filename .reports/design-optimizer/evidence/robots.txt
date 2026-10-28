@@ -1,0 +1,20 @@
+# nguyenvanlamm.github.io: all crawlers welcome, including search and AI bots.
+User-agent: *
+Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+Sitemap: https://nguyenvanlamm.github.io/tile-bloom-site/sitemap.xml
+Sitemap: https://nguyenvanlamm.github.io/coin-cubby-site/sitemap.xml
+Sitemap: https://nguyenvanlamm.github.io/nightwall-site/sitemap.xml
+Sitemap: https://nguyenvanlamm.github.io/lowtide-locks-site/sitemap.xml
+Sitemap: https://nguyenvanlamm.github.io/haboob-run-site/sitemap.xml
+Sitemap: https://nguyenvanlamm.github.io/tiptoe-tabby-site/sitemap.xml
+Sitemap: https://nguyenvanlamm.github.io/brinestack-site/sitemap.xml
+Sitemap: https://nguyenvanlamm.github.io/hadal-relay-site/sitemap.xml
+Sitemap: https://nguyenvanlamm.github.io/snowpack-hop-site/sitemap.xml
+Sitemap: https://nguyenvanlamm.github.io/nibblume-site/sitemap.xml
+Sitemap: https://nguyenvanlamm.github.io/chiselturn-site/sitemap.xml
+Sitemap: https://nguyenvanlamm.github.io/ochrecut-site/sitemap.xml
+Sitemap: https://nguyenvanlamm.github.io/beamfork-site/sitemap.xml
+Sitemap: https://nguyenvanlamm.github.io/slipchute-site/sitemap.xml
+Sitemap: https://nguyenvanlamm.github.io/skepfield-site/sitemap.xml

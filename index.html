@@ -64,10 +64,16 @@
   ]
 }
 </script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,700;0,800;1,500&family=Alegreya+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="preload" href="assets/fonts/alegreya-800-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/alegreya-sans-400-latin.woff2" as="font" type="font/woff2" crossorigin>
 <style>
+  /* Self-hosted Alegreya 800 + Alegreya Sans 400/500/700/800 (latin subset, SIL OFL 1.1, see assets/fonts/):
+     the same faces the page used from Google Fonts, with no request to a third-party font host. */
+  @font-face { font-family: "Alegreya"; font-style: normal; font-weight: 800; font-display: swap; src: url(assets/fonts/alegreya-800-latin.woff2) format("woff2"); }
+  @font-face { font-family: "Alegreya Sans"; font-style: normal; font-weight: 400; font-display: swap; src: url(assets/fonts/alegreya-sans-400-latin.woff2) format("woff2"); }
+  @font-face { font-family: "Alegreya Sans"; font-style: normal; font-weight: 500; font-display: swap; src: url(assets/fonts/alegreya-sans-500-latin.woff2) format("woff2"); }
+  @font-face { font-family: "Alegreya Sans"; font-style: normal; font-weight: 700; font-display: swap; src: url(assets/fonts/alegreya-sans-700-latin.woff2) format("woff2"); }
+  @font-face { font-family: "Alegreya Sans"; font-style: normal; font-weight: 800; font-display: swap; src: url(assets/fonts/alegreya-sans-800-latin.woff2) format("woff2"); }
   :root {
     --mist: #E2E9D8; --mist-hi: #EEF3E8; --ink: #1E3326; --ink-2: #465A4C;
     --hedge: #2F5636; --hedge-side: #24452B; --soil: #5E4A2E; --wax: #EDB841; --straw: #A8721F;
@@ -111,6 +117,7 @@
   .soon img { width: 28px; height: 28px; }
   .trust { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; padding: 0; margin: 22px 0 0; }
   .trust li { background: var(--card); border-radius: 999px; padding: 6px 14px; font-weight: 700; font-size: 16px; box-shadow: var(--lift); }
+  .jump { margin-top: 14px; font-weight: 700; }
   .shot { margin: 0 auto; width: 100%; max-width: 330px; border-radius: 30px; overflow: hidden; background: var(--mist); box-shadow: 0 0 0 1px rgba(30,51,38,.10), 0 24px 44px -24px rgba(30,51,38,.55); }
 
   /* sections */
@@ -167,6 +174,7 @@
   .calm .label { color: var(--wax); }
   .calm .lede { color: #DCE6D3; }
   .calm a { color: var(--card); }
+  .calm a:focus-visible { outline-color: var(--wax); } /* straw ring is 2.0:1 on hedgerow; beeswax is 4.6:1 */
   .calm ul { list-style: none; padding: 0; margin: 22px 0 0; display: grid; gap: 10px; }
   .calm li { display: flex; gap: 12px; align-items: baseline; font-size: 18px; }
   .calm li::before { content: ""; width: 12px; height: 14px; flex: none; clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%); background: var(--wax); transform: translateY(1px); }
@@ -175,10 +183,12 @@
   .end img.mark { width: 64px; height: 64px; margin: 0 auto; }
   .end h2 { margin-top: 10px; }
   .end .lede { margin: 10px auto 0; }
+  .end .soon + .lede { margin-top: 18px; }
 
   footer { border-top: 1px solid var(--line); padding: 22px 0 36px; color: var(--ink-2); }
   footer .wrap { display: flex; flex-wrap: wrap; gap: 10px 22px; justify-content: space-between; align-items: center; }
   footer nav { display: flex; flex-wrap: wrap; gap: 8px 20px; font-weight: 700; }
+  footer nav a { padding: 10px 0; margin: -10px 0; }
 
   @media (min-width: 640px) {
     .wrap { padding-left: 28px; padding-right: 28px; }
@@ -212,6 +222,7 @@
       <ul class="trust" aria-label="At a glance">
         <li>No ads</li><li>No tracking</li><li>A free season</li><li>A free field every day</li>
       </ul>
+      <p class="jump"><a href="#seasons">What's free and what's paid</a></p>
     </div>
     <figure class="shot" style="margin-top:0;margin-bottom:0">
       <img src="assets/home.webp" width="390" height="540" alt="The Skepfield home screen: today's field and the Spring season drawn as a honeycomb, solved fields in crop colours.">
@@ -241,12 +252,12 @@
       <p class="label">The rules</p>
       <h2 id="rules-h">Four lines, then the field is yours</h2>
       <ol class="rules">
-        <li class="card rule"><span class="num" aria-hidden="true"></span><p>Every plot gets exactly one hive.</p></li>
+        <li class="card rule"><span class="num" aria-hidden="true"></span><p>Every plot (one coloured patch of the field) gets exactly one hive.</p></li>
         <li class="card rule"><span class="num" aria-hidden="true"></span><p>No two hives share a row or a column.</p></li>
         <li class="card rule"><span class="num" aria-hidden="true"></span><p>Hives never touch, not even at the corners.</p></li>
         <li class="card rule twist"><span class="num" aria-hidden="true"></span><p><span class="tag">The twist</span>A stone shows how many hives touch it.</p><span class="stone" aria-hidden="true">2</span></li>
       </ol>
-      <p class="controls">Stones sit in the field like the numbers in Minesweeper: they hold no hive themselves, and they settle questions the other rules leave open.</p>
+      <p class="controls">A stone holds no hive. Its number counts the hives in the eight cells around it, corners included, and settles questions the other rules leave open.</p>
     </div>
   </section>
 
@@ -262,7 +273,7 @@
             <li><span class="crop c-spring" aria-hidden="true"></span><div><b>Spring Fields</b><span>40 fields, 5×5 to 7×7. Stones arrive at field&nbsp;4.</span></div></li>
             <li><span class="crop c-daily" aria-hidden="true"></span><div><b>Today's field</b><span>A new 8×8 field every day, free from the first launch.</span></div></li>
             <li><span class="crop c-book" aria-hidden="true"></span><div><b>The Almanac</b><span>Three pages a day, each explaining the next step.</span></div></li>
-            <li><span class="crop c-kit" aria-hidden="true"></span><div><b>Starter tools</b><span>3 Smokers and 2 Spare Bees. Clearing fields 10, 20, 30 and 40 of a season, or every daily field in a week, earns one more (up to 9 of each).</span></div></li>
+            <li><span class="crop c-kit" aria-hidden="true"></span><div><b>Starter tools</b><span>3 Smokers (each places one right hive) and 2 Spare Bees (each calls a lost bee back). Clearing fields 10, 20, 30 and 40 of a season, or every daily field in a week, earns one more, up to 9 of each.</span></div></li>
           </ul>
         </div>
         <div class="card">
@@ -272,7 +283,7 @@
             <li><span class="crop c-summer" aria-hidden="true"></span><div><b>Summer Fields</b><span>40 fields, 6×6 to 8×8.</span></div></li>
             <li><span class="crop c-autumn" aria-hidden="true"></span><div><b>Autumn Fields</b><span>40 fields, 7×7 to 9×9.</span></div></li>
             <li><span class="crop c-winter" aria-hidden="true"></span><div><b>Winter Fields</b><span>40 fields, 8×8 to 10×10.</span></div></li>
-            <li><span class="crop c-kit" aria-hidden="true"></span><div><b>Beekeeper's Kit</b><span>10 Smokers (each places one right hive) and 5 Spare Bees (each calls a lost bee back).</span></div></li>
+            <li><span class="crop c-kit" aria-hidden="true"></span><div><b>Beekeeper's Kit</b><span>10 Smokers and 5 Spare Bees. Buy it as often as you need.</span></div></li>
           </ul>
           <p class="note">Seasons are one-time unlocks, in any order. No subscription. Restore purchases in Settings.</p>
         </div>
@@ -289,6 +300,7 @@
         <ul>
           <li>No ads, no analytics, no tracking.</li>
           <li>No account and no sign-in.</li>
+          <li>No energy, no timers to wait out, no daily limit on play.</li>
           <li>Plays offline. Progress stays on your iPhone.</li>
           <li>The App Store is used only when you buy something.</li>
         </ul>
@@ -299,8 +311,9 @@
   <div class="wrap end">
     <img class="mark" src="assets/logo-mark.svg" alt="" width="64" height="64">
     <h2>Skepfield</h2>
-    <p class="lede">A beehive logic puzzle for iPhone.</p>
+    <p class="lede">A skep is a traditional straw beehive. Set the first one and see where the field leads.</p>
     <p class="soon">Coming soon to the App Store</p>
+    <p class="lede"><a href="support.html">Questions before launch? Visit support</a></p>
   </div>
 </main>
 

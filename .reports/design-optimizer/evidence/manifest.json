@@ -1,0 +1,28 @@
+{
+  "url": "https://nguyenvanlamm.github.io/skepfield-site/",
+  "final_url": "https://nguyenvanlamm.github.io/skepfield-site/",
+  "captured_at": "2026-10-28T14:10:00Z",
+  "target_type": "live-url",
+  "source_checkout": "/home/lam/Documents/projects/skepfield-site/.claude/worktrees/s9-site (branch worktree-s9-site, fast-forwarded to origin/main 100ab67 = live)",
+  "files": {
+    "page.html": {"status": 200},
+    "head.json": {"status": "derived"},
+    "screenshots": {"status": "ok", "files": ["desktop.png", "mobile.png", "mobile-fold.png"], "note": "/browse not installed; captured with google-chrome --headless=new (1440 wide, 390 wide, 390x844 fold)"},
+    "robots.txt": {"status": 200, "note": "host root https://nguyenvanlamm.github.io/robots.txt (the only robots.txt crawlers read); lists the Skepfield sitemap"},
+    "sitemap.xml": {"status": 404, "reason": "not found", "note": "host root has none; the project sitemap is captured as site-sitemap.xml"},
+    "llms.txt": {"status": 200, "note": "host root; lists the Skepfield llms.txt"},
+    "site-sitemap.xml": {"status": 200, "url": "https://nguyenvanlamm.github.io/skepfield-site/sitemap.xml"},
+    "site-llms.txt": {"status": 200, "url": "https://nguyenvanlamm.github.io/skepfield-site/llms.txt"}
+  },
+  "ax_case": "C",
+  "ax_case_reason": "G1 approved (owner, pipeline gate G4, 2026-10-28) and the scan returned level 2, but isitagentready.com normalised the target to the origin: scan.json url/targetUrl = https://nguyenvanlamm.github.io, scannedAt 2026-10-28T13:51:05Z. It does not name the project URL, so the scan-covered AX checks stay with ux-ax-review and the scan is cited as corroboration (origin-level checks: robots.txt, sitemap via robots.txt, content signals).",
+  "owners": {
+    "clarity": "dont-make-me-think",
+    "brand": "ux-ax-review", "responsive": "ux-ax-review", "accessibility": "ux-ax-review",
+    "performance": "ux-ax-review", "conversion": "ux-ax-review",
+    "robots-sitemap": "ux-ax-review", "markdown-pages": "ux-ax-review", "crawler-access": "ux-ax-review",
+    "structured-data": "ux-ax-review", "llms-txt": "ux-ax-review", "ai-actions": "ux-ax-review",
+    "agent-readiness-scan": "website-agent-readiness",
+    "virality": "viral-product-evaluator", "meta-tags": "viral-product-evaluator"
+  }
+}

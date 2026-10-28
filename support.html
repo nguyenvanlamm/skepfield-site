@@ -27,10 +27,12 @@
   "isPartOf": { "@id": "https://nguyenvanlamm.github.io/skepfield-site/#website" },
   "about": { "@id": "https://nguyenvanlamm.github.io/skepfield-site/#game" } }
 </script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@700;800&family=Alegreya+Sans:wght@400;700;800&display=swap" rel="stylesheet">
 <style>
+  /* Self-hosted Alegreya 800 + Alegreya Sans (latin subset, SIL OFL 1.1, see assets/fonts/): the same faces as before, with no request to a third-party font host. */
+  @font-face { font-family: "Alegreya"; font-style: normal; font-weight: 800; font-display: swap; src: url(assets/fonts/alegreya-800-latin.woff2) format("woff2"); }
+  @font-face { font-family: "Alegreya Sans"; font-style: normal; font-weight: 400; font-display: swap; src: url(assets/fonts/alegreya-sans-400-latin.woff2) format("woff2"); }
+  @font-face { font-family: "Alegreya Sans"; font-style: normal; font-weight: 700; font-display: swap; src: url(assets/fonts/alegreya-sans-700-latin.woff2) format("woff2"); }
+  @font-face { font-family: "Alegreya Sans"; font-style: normal; font-weight: 800; font-display: swap; src: url(assets/fonts/alegreya-sans-800-latin.woff2) format("woff2"); }
   :root { --mist: #E2E9D8; --mist-hi: #EEF3E8; --ink: #1E3326; --ink-2: #465A4C; --hedge: #2F5636; --wax: #EDB841; --straw: #A8721F; --card: #FAFBF6; --line: #D3DCC8;
     --lift: 0 1px 0 rgba(30,51,38,.06), 0 12px 26px -12px rgba(30,51,38,.36); }
   * { box-sizing: border-box; }
@@ -51,10 +53,11 @@
   ol, ul { padding-left: 22px; }
   li { margin: 4px 0; }
   li::marker { color: var(--straw); font-weight: 800; }
+  ol li::marker { color: #8A5D17; } /* rule numbers are text: deeper straw, 5.5:1 on the card (straw is 4.0:1) */
   .muted { color: var(--ink-2); }
   hr { border: 0; border-top: 1px solid var(--line); margin: 32px 0; }
   footer { max-width: 720px; margin: 0 auto; padding: 20px 16px 36px; color: var(--ink-2); display: flex; flex-wrap: wrap; gap: 8px 20px; }
-  footer a { font-weight: 700; }
+  footer a { font-weight: 700; padding: 10px 0; margin: -10px 0; }
   @media (max-width: 760px) { main { margin: 20px 16px 0; padding: 28px 18px 32px; } }
   @media (min-width: 640px) { main { padding: 44px 48px 48px; } }
 </style>
@@ -75,7 +78,14 @@
     <li>Hives never touch, not even at the corners.</li>
     <li>A stone shows how many hives touch it.</li>
   </ol>
-  <p>Tap a cell to cross it out. Tap a cross to place a hive. Drag to cross out a run of cells. Undo takes back crosses, not hives. Each field starts with 3 bees: a wrong hive sends one away, and with none left, the bees move on and you start the field again. The Almanac explains the next step, 3 pages a day. A Smoker places one right hive for you, and a Spare Bee calls a lost bee back. The full rules are behind the “?” button in the game.</p>
+  <ul>
+    <li>Tap a cell to cross it out. Tap a cross to place a hive. Drag to cross out a run of cells.</li>
+    <li>Undo takes back crosses, not hives.</li>
+    <li>Each field starts with 3 bees: a wrong hive sends one away, and with none left, the bees move on and you start the field again.</li>
+    <li>The Almanac explains the next step, 3 pages a day.</li>
+    <li>A Smoker places one right hive for you, and a Spare Bee calls a lost bee back.</li>
+    <li>The full rules are behind the “?” button in the game.</li>
+  </ul>
 
   <h2>Purchases</h2>
   <p>Spring Fields (40 fields) and today's field are free. Summer Fields, Autumn Fields and Winter Fields are one-time unlocks of 40 fields each, and the Beekeeper's Kit adds 10 Smokers and 5 Spare Bees each time you buy it. Bought something before, or on another device with the same store account? Open <em>Settings → Restore purchases</em>.</p>

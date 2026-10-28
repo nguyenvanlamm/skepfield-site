@@ -1,0 +1,30 @@
+{
+ "title": "Skepfield: a calm beehive logic puzzle for iPhone",
+ "meta": {
+  "viewport": "width=device-width, initial-scale=1",
+  "description": "Skepfield is a calm beehive logic puzzle for iPhone: one hive per plot, no two touching, and numbered stones count the hives around them. No ads, no tracking.",
+  "robots": "index, follow, max-image-preview:large",
+  "theme-color": "#E2E9D8",
+  "color-scheme": "light",
+  "og:type": "website",
+  "og:site_name": "Skepfield",
+  "og:locale": "en_US",
+  "og:title": "Skepfield: a calm beehive logic puzzle",
+  "og:description": "One hive per plot. Numbered field stones count the hives around them. No ads, no tracking, a free season and a daily field. Coming soon to the App Store.",
+  "og:url": "https://nguyenvanlamm.github.io/skepfield-site/",
+  "og:image": "https://nguyenvanlamm.github.io/skepfield-site/assets/share-card.jpg",
+  "og:image:type": "image/jpeg",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "og:image:alt": "Skepfield: Find the one place each hive belongs. Beside the title, a Spring field of crop plots with straw hives, crossed-out cells and two numbered stones.",
+  "twitter:card": "summary_large_image",
+  "twitter:title": "Skepfield: a calm beehive logic puzzle",
+  "twitter:description": "One hive per plot. Numbered field stones count the hives around them. No ads, no tracking. Coming soon to the App Store.",
+  "twitter:image": "https://nguyenvanlamm.github.io/skepfield-site/assets/share-card.jpg",
+  "twitter:image:alt": "Skepfield: Find the one place each hive belongs. Beside the title, a Spring field of crop plots with straw hives, crossed-out cells and two numbered stones."
+ },
+ "canonical": "https://nguyenvanlamm.github.io/skepfield-site/",
+ "jsonld": [
+  "{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"WebSite\",\n      \"@id\": \"https://nguyenvanlamm.github.io/skepfield-site/#website\",\n      \"name\": \"Skepfield\",\n      \"url\": \"https://nguyenvanlamm.github.io/skepfield-site/\",\n      \"inLanguage\": \"en\",\n      \"about\": { \"@id\": \"https://nguyenvanlamm.github.io/skepfield-site/#game\" }\n    },\n    {\n      \"@type\": [\"VideoGame\", \"MobileApplication\"],\n      \"@id\": \"https://nguyenvanlamm.github.io/skepfield-site/#game\",\n      \"name\": \"Skepfield\",\n      \"alternateName\": \"Skepfield: Beehive Logic\",\n      \"description\": \"A calm beehive logic puzzle for iPhone on a patchwork farm field. Every plot gets exactly one straw hive, no two hives share a row or a column, hives never touch (not even at the corners), and numbered field stones show how many hives touch them. Every field has exactly one solution reachable by reasoning alone. Four seasons of 40 fields (5x5 to 10x10) plus a new 8x8 field every day. No ads, no tracking, plays offline.\",\n      \"url\": \"https://nguyenvanlamm.github.io/skepfield-site/\",\n      \"image\": \"https://nguyenvanlamm.github.io/skepfield-site/assets/share-card.jpg\",\n      \"screenshot\": [\n        \"https://nguyenvanlamm.github.io/skepfield-site/assets/game.webp\",\n        \"https://nguyenvanlamm.github.io/skepfield-site/assets/home.webp\"\n      ],\n      \"gamePlatform\": \"iPhone\",\n      \"operatingSystem\": \"iOS\",\n      \"applicationCategory\": \"GameApplication\",\n      \"applicationSubCategory\": \"Puzzle\",\n      \"genre\": [\"Puzzle\", \"Logic puzzle\"],\n      \"playMode\": \"SinglePlayer\",\n      \"inLanguage\": \"en\",\n      \"isAccessibleForFree\": true,\n      \"keywords\": \"beehive logic puzzle, logic grid, deduction, daily puzzle, offline puzzle\"\n    }\n  ]\n}"
+ ]
+}
