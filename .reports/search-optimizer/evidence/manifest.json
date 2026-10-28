@@ -1,0 +1,28 @@
+{
+  "url": "https://nguyenvanlamm.github.io/skepfield-site/",
+  "final_url": "https://nguyenvanlamm.github.io/skepfield-site/",
+  "captured_at": "2026-10-28T13:42:14Z",
+  "target_type": "live-url + repo",
+  "repo": "/home/lam/Documents/projects/skepfield-site/.claude/worktrees/s9-site",
+  "raw_evidence_dir": "/tmp/search-optimizer/skepfield-site-20261028T134214Z/evidence",
+  "files": {
+    "page.html": {"status": 200, "note": "byte-identical to committed index.html (22ce958)"},
+    "head.json": {"status": "derived"},
+    "robots.txt": {"status": 200, "url": "https://nguyenvanlamm.github.io/robots.txt"},
+    "sitemap.xml": {"status": 404, "reason": "not found", "url": "https://nguyenvanlamm.github.io/sitemap.xml"},
+    "llms.txt": {"status": 200, "url": "https://nguyenvanlamm.github.io/llms.txt", "note": "no Skepfield entry"},
+    "skepfield-site/llms.txt": {"status": 404, "reason": "not found"}
+  },
+  "scan_case": "B",
+  "owners": {
+    "meta-tags": "seo-ai-optimizer",
+    "robots-sitemap": "seo-ai-optimizer",
+    "structured-data": "seo-ai-optimizer",
+    "llms-txt": "seo-ai-optimizer",
+    "crawler-access": "seo-ai-optimizer",
+    "markdown-pages": "not-covered: agent-readiness scan deferred to design-optimizer (next pipeline stage)",
+    "ai-actions": "not-covered: no web-branch member evaluates it; design-optimizer covers it next",
+    "agent-readiness-scan": "not-covered: deferred to design-optimizer (approved at G4, 2026-10-28)",
+    "virality": "not-covered: viral-product-evaluator skipped; design-optimizer audits virality next"
+  }
+}

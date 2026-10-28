@@ -1,0 +1,16 @@
+# Skepfield
+
+> Skepfield (on the App Store as "Skepfield: Beehive Logic") is a calm beehive logic puzzle game for iPhone. Every plot of a patchwork farm field gets exactly one straw hive, and numbered field stones count the hives around them. Every field has exactly one solution that can be reached by reasoning alone. Coming soon to the App Store.
+
+- Rules: every plot gets exactly one hive; no two hives share a row or a column; hives never touch, not even at the corners; a stone holds no hive and shows how many hives touch it (in the eight cells around it).
+- Controls: tap a cell to cross it out, tap a cross to place a hive, drag to cross out a run of cells. Undo takes back crosses, not hives.
+- Each field starts with three bees: a hive in the wrong cell sends one away, and with none left the field starts again. Fields run from 5x5 to 10x10 and take about one to five minutes. No countdown, no energy.
+- The Almanac explains the next deduction in plain words, three pages a day, free. Tools: a Smoker places one right hive, a Spare Bee calls a lost bee back. You start with 3 Smokers and 2 Spare Bees; clearing fields 10, 20, 30 and 40 of a season, or every daily field in a week, earns one more (up to 9 of each).
+- Free: Spring Fields (40 fields, 5x5 to 7x7; stones arrive at field 4) and today's field (a new 8x8 field every day). Optional one-time unlocks, in any order: Summer Fields (40 fields, 6x6 to 8x8), Autumn Fields (40 fields, 7x7 to 9x9), Winter Fields (40 fields, 8x8 to 10x10). The Beekeeper's Kit (10 Smokers and 5 Spare Bees) can be bought more than once. No subscription; Restore purchases is in Settings.
+- No ads, no account, no analytics or tracking. Progress is stored only on the iPhone and the game plays offline; only buying or restoring talks to the App Store. The game is in English.
+
+## Pages
+
+- [Home](https://nguyenvanlamm.github.io/skepfield-site/): what the game is, how it plays, the rules, seasons and what is free
+- [Support](https://nguyenvanlamm.github.io/skepfield-site/support.html): contact, how to play, purchases and restoring, progress
+- [Privacy Policy](https://nguyenvanlamm.github.io/skepfield-site/privacy.html): what the game stores on the device and what it never collects
