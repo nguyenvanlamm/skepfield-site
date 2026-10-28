@@ -1,0 +1,671 @@
+{
+ "captured_at": "2026-10-28T13:54:35.403Z",
+ "browser": "154.0.8037.97",
+ "runs": [
+  {
+   "page": "index",
+   "viewport": "m390",
+   "status": 200,
+   "metrics": {
+    "ttfb": 984,
+    "dcl": 1007,
+    "load": 2482,
+    "fcp": 1244,
+    "lcp": 1444,
+    "cls": 0,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "docHeight": 5348,
+    "overflowing": [],
+    "smallTargets": [
+     "privacy policy 98x19"
+    ],
+    "fontsLoaded": [
+     "Alegreya 800 normal",
+     "Alegreya Sans 400 normal",
+     "Alegreya Sans 500 normal",
+     "Alegreya Sans 700 normal",
+     "Alegreya Sans 800 normal"
+    ]
+   },
+   "requests": 11,
+   "totalBytes": 226288,
+   "thirdPartyHosts": [
+    "fonts.googleapis.com",
+    "fonts.gstatic.com"
+   ],
+   "requestList": [
+    "document 200 6206 https://nguyenvanlamm.github.io/skepfield-site/",
+    "stylesheet 200 1501 https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,700;0,800;1,500&family=Alegreya+Sans:wght@400;50",
+    "image 200 31795 https://nguyenvanlamm.github.io/skepfield-site/assets/home.webp",
+    "font 200 23985 https://fonts.gstatic.com/s/alegreyasans/v28/5aUu9_-1phKLFgshYDvh6Vwt5f1LqEp2iw.woff2",
+    "font 200 24005 https://fonts.gstatic.com/s/alegreyasans/v28/5aUu9_-1phKLFgshYDvh6Vwt5eFIqEp2iw.woff2",
+    "font 200 23737 https://fonts.gstatic.com/s/alegreyasans/v28/5aUz9_-1phKLFgshYDvh6Vwt7VptvQ.woff2",
+    "font 200 23957 https://fonts.gstatic.com/s/alegreyasans/v28/5aUu9_-1phKLFgshYDvh6Vwt5alOqEp2iw.woff2",
+    "font 200 43508 https://fonts.gstatic.com/s/alegreya/v41/4UaBrEBBsBhlBjvfkSLhx6g.woff2",
+    "image 200 46506 https://nguyenvanlamm.github.io/skepfield-site/assets/game.webp",
+    "image 200 623 https://nguyenvanlamm.github.io/skepfield-site/assets/logo-mark.svg",
+    "other 200 465 https://nguyenvanlamm.github.io/skepfield-site/favicon.svg"
+   ],
+   "focus": []
+  },
+  {
+   "page": "index",
+   "viewport": "m320",
+   "status": 200,
+   "metrics": {
+    "ttfb": 492,
+    "dcl": 502,
+    "load": 1227,
+    "fcp": 696,
+    "lcp": 696,
+    "cls": 0,
+    "scrollWidth": 320,
+    "clientWidth": 320,
+    "docHeight": 5632,
+    "overflowing": [],
+    "smallTargets": [
+     "privacy policy 98x19"
+    ],
+    "fontsLoaded": [
+     "Alegreya 800 normal",
+     "Alegreya Sans 400 normal",
+     "Alegreya Sans 500 normal",
+     "Alegreya Sans 700 normal",
+     "Alegreya Sans 800 normal"
+    ]
+   },
+   "requests": 11,
+   "totalBytes": 226319,
+   "thirdPartyHosts": [
+    "fonts.googleapis.com",
+    "fonts.gstatic.com"
+   ],
+   "requestList": [
+    "document 200 6203 https://nguyenvanlamm.github.io/skepfield-site/",
+    "stylesheet 200 1501 https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,700;0,800;1,500&family=Alegreya+Sans:wght@400;50",
+    "font 200 24005 https://fonts.gstatic.com/s/alegreyasans/v28/5aUu9_-1phKLFgshYDvh6Vwt5eFIqEp2iw.woff2",
+    "font 200 23985 https://fonts.gstatic.com/s/alegreyasans/v28/5aUu9_-1phKLFgshYDvh6Vwt5f1LqEp2iw.woff2",
+    "font 200 23737 https://fonts.gstatic.com/s/alegreyasans/v28/5aUz9_-1phKLFgshYDvh6Vwt7VptvQ.woff2",
+    "font 200 23957 https://fonts.gstatic.com/s/alegreyasans/v28/5aUu9_-1phKLFgshYDvh6Vwt5alOqEp2iw.woff2",
+    "font 200 43508 https://fonts.gstatic.com/s/alegreya/v41/4UaBrEBBsBhlBjvfkSLhx6g.woff2",
+    "image 200 31792 https://nguyenvanlamm.github.io/skepfield-site/assets/home.webp",
+    "image 200 500 https://nguyenvanlamm.github.io/skepfield-site/assets/logo-mark.svg",
+    "image 200 46652 https://nguyenvanlamm.github.io/skepfield-site/assets/game.webp",
+    "other 200 479 https://nguyenvanlamm.github.io/skepfield-site/favicon.svg"
+   ],
+   "focus": []
+  },
+  {
+   "page": "index",
+   "viewport": "d1440",
+   "status": 200,
+   "headers": {
+    "accept-ranges": "bytes",
+    "access-control-allow-origin": "*",
+    "age": "9",
+    "cache-control": "max-age=600",
+    "content-encoding": "gzip",
+    "content-length": "5779",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 28 Oct 2026 13:54:45 GMT",
+    "etag": "W/\"6ae1fd2e-4d13\"",
+    "expires": "Wed, 28 Oct 2026 14:04:36 GMT",
+    "last-modified": "Wed, 28 Oct 2026 13:48:30 GMT",
+    "server": "GitHub.com",
+    "strict-transport-security": "max-age=31556952",
+    "vary": "Accept-Encoding",
+    "via": "1.1 varnish",
+    "x-cache": "HIT",
+    "x-cache-hits": "1",
+    "x-fastly-request-id": "cbc3bdad6afbe1d6abed78d1f662e67ad1311bf3",
+    "x-github-edge-region": "southeastasia",
+    "x-github-request-id": "997C:A709C:439C0C:46EEAE:6AE1FE9B",
+    "x-proxy-cache": "MISS",
+    "x-served-by": "cache-hkg-vhhh8650077-HKG",
+    "x-timer": "S1793195686.846257,VS0,VE1"
+   },
+   "metrics": {
+    "ttfb": 936,
+    "dcl": 956,
+    "load": 1411,
+    "fcp": 1224,
+    "lcp": 1224,
+    "cls": 0.0143,
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "docHeight": 3758,
+    "overflowing": [],
+    "smallTargets": [
+     "privacy policy 98x19"
+    ],
+    "fontsLoaded": [
+     "Alegreya 800 normal",
+     "Alegreya Sans 400 normal",
+     "Alegreya Sans 500 normal",
+     "Alegreya Sans 700 normal",
+     "Alegreya Sans 800 normal"
+    ]
+   },
+   "requests": 11,
+   "totalBytes": 226262,
+   "thirdPartyHosts": [
+    "fonts.googleapis.com",
+    "fonts.gstatic.com"
+   ],
+   "requestList": [
+    "document 200 6204 https://nguyenvanlamm.github.io/skepfield-site/",
+    "image 200 31793 https://nguyenvanlamm.github.io/skepfield-site/assets/home.webp",
+    "image 200 500 https://nguyenvanlamm.github.io/skepfield-site/assets/logo-mark.svg",
+    "stylesheet 200 1501 https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,700;0,800;1,500&family=Alegreya+Sans:wght@400;50",
+    "image 200 46616 https://nguyenvanlamm.github.io/skepfield-site/assets/game.webp",
+    "font 200 23737 https://fonts.gstatic.com/s/alegreyasans/v28/5aUz9_-1phKLFgshYDvh6Vwt7VptvQ.woff2",
+    "font 200 23985 https://fonts.gstatic.com/s/alegreyasans/v28/5aUu9_-1phKLFgshYDvh6Vwt5f1LqEp2iw.woff2",
+    "font 200 24005 https://fonts.gstatic.com/s/alegreyasans/v28/5aUu9_-1phKLFgshYDvh6Vwt5eFIqEp2iw.woff2",
+    "font 200 23957 https://fonts.gstatic.com/s/alegreyasans/v28/5aUu9_-1phKLFgshYDvh6Vwt5alOqEp2iw.woff2",
+    "font 200 43508 https://fonts.gstatic.com/s/alegreya/v41/4UaBrEBBsBhlBjvfkSLhx6g.woff2",
+    "other 200 456 https://nguyenvanlamm.github.io/skepfield-site/favicon.svg"
+   ],
+   "focus": [
+    {
+     "tag": "A",
+     "text": "Skepfield home",
+     "href": "./",
+     "outline": "solid 3px rgb(168, 114, 31)"
+    },
+    {
+     "tag": "A",
+     "text": "Rules",
+     "href": "#rules",
+     "outline": "solid 3px rgb(168, 114, 31)"
+    },
+    {
+     "tag": "A",
+     "text": "Support",
+     "href": "support.html",
+     "outline": "solid 3px rgb(168, 114, 31)"
+    },
+    {
+     "tag": "A",
+     "text": "privacy policy",
+     "href": "privacy.html",
+     "outline": "solid 3px rgb(168, 114, 31)"
+    },
+    {
+     "tag": "A",
+     "text": "Privacy",
+     "href": "privacy.html",
+     "outline": "solid 3px rgb(168, 114, 31)"
+    },
+    {
+     "tag": "A",
+     "text": "Support",
+     "href": "support.html",
+     "outline": "solid 3px rgb(168, 114, 31)"
+    },
+    {
+     "tag": "A",
+     "text": "Contact",
+     "href": "mailto:lamnv260398@gmail.com",
+     "outline": "solid 3px rgb(168, 114, 31)"
+    },
+    null,
+    {
+     "tag": "A",
+     "text": "Skepfield home",
+     "href": "./",
+     "outline": "solid 3px rgb(168, 114, 31)"
+    },
+    {
+     "tag": "A",
+     "text": "Rules",
+     "href": "#rules",
+     "outline": "solid 3px rgb(168, 114, 31)"
+    },
+    {
+     "tag": "A",
+     "text": "Support",
+     "href": "support.html",
+     "outline": "solid 3px rgb(168, 114, 31)"
+    },
+    {
+     "tag": "A",
+     "text": "privacy policy",
+     "href": "privacy.html",
+     "outline": "solid 3px rgb(168, 114, 31)"
+    }
+   ]
+  },
+  {
+   "page": "support.html",
+   "viewport": "m390",
+   "status": 200,
+   "metrics": {
+    "ttfb": 1035,
+    "dcl": 1056,
+    "load": 1260,
+    "fcp": 1328,
+    "lcp": 1328,
+    "cls": 0,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "docHeight": 1526,
+    "overflowing": [],
+    "smallTargets": [
+     "lamnv260398@gmail.com 172x17",
+     "Privacy Policy 88x17"
+    ],
+    "fontsLoaded": [
+     "Alegreya 800 normal",
+     "Alegreya Sans 400 normal",
+     "Alegreya Sans 700 normal",
+     "Alegreya Sans 800 normal"
+    ]
+   },
+   "requests": 8,
+   "totalBytes": 120517,
+   "thirdPartyHosts": [
+    "fonts.googleapis.com",
+    "fonts.gstatic.com"
+   ],
+   "requestList": [
+    "document 200 3032 https://nguyenvanlamm.github.io/skepfield-site/support.html",
+    "image 200 478 https://nguyenvanlamm.github.io/skepfield-site/assets/logo-mark.svg",
+    "stylesheet 200 1360 https://fonts.googleapis.com/css2?family=Alegreya:wght@700;800&family=Alegreya+Sans:wght@400;700;800&display=s",
+    "other 200 412 https://nguyenvanlamm.github.io/skepfield-site/favicon.svg",
+    "font 200 24005 https://fonts.gstatic.com/s/alegreyasans/v28/5aUu9_-1phKLFgshYDvh6Vwt5eFIqEp2iw.woff2",
+    "font 200 23985 https://fonts.gstatic.com/s/alegreyasans/v28/5aUu9_-1phKLFgshYDvh6Vwt5f1LqEp2iw.woff2",
+    "font 200 23737 https://fonts.gstatic.com/s/alegreyasans/v28/5aUz9_-1phKLFgshYDvh6Vwt7VptvQ.woff2",
+    "font 200 43508 https://fonts.gstatic.com/s/alegreya/v41/4UaBrEBBsBhlBjvfkSLhx6g.woff2"
+   ],
+   "focus": []
+  },
+  {
+   "page": "support.html",
+   "viewport": "m320",
+   "status": 200,
+   "metrics": {
+    "ttfb": 1355,
+    "dcl": 1368,
+    "load": 1744,
+    "fcp": 1616,
+    "lcp": 1616,
+    "cls": 0,
+    "scrollWidth": 320,
+    "clientWidth": 320,
+    "docHeight": 1839,
+    "overflowing": [],
+    "smallTargets": [
+     "lamnv260398@gmail.com 172x17",
+     "Privacy Policy 88x17"
+    ],
+    "fontsLoaded": [
+     "Alegreya 800 normal",
+     "Alegreya Sans 400 normal",
+     "Alegreya Sans 700 normal",
+     "Alegreya Sans 800 normal"
+    ]
+   },
+   "requests": 8,
+   "totalBytes": 120519,
+   "thirdPartyHosts": [
+    "fonts.googleapis.com",
+    "fonts.gstatic.com"
+   ],
+   "requestList": [
+    "document 200 3029 https://nguyenvanlamm.github.io/skepfield-site/support.html",
+    "image 200 481 https://nguyenvanlamm.github.io/skepfield-site/assets/logo-mark.svg",
+    "stylesheet 200 1360 https://fonts.googleapis.com/css2?family=Alegreya:wght@700;800&family=Alegreya+Sans:wght@400;700;800&display=s",
+    "font 200 23737 https://fonts.gstatic.com/s/alegreyasans/v28/5aUz9_-1phKLFgshYDvh6Vwt7VptvQ.woff2",
+    "font 200 24005 https://fonts.gstatic.com/s/alegreyasans/v28/5aUu9_-1phKLFgshYDvh6Vwt5eFIqEp2iw.woff2",
+    "font 200 23985 https://fonts.gstatic.com/s/alegreyasans/v28/5aUu9_-1phKLFgshYDvh6Vwt5f1LqEp2iw.woff2",
+    "font 200 43508 https://fonts.gstatic.com/s/alegreya/v41/4UaBrEBBsBhlBjvfkSLhx6g.woff2",
+    "other 200 414 https://nguyenvanlamm.github.io/skepfield-site/favicon.svg"
+   ],
+   "focus": []
+  },
+  {
+   "page": "support.html",
+   "viewport": "d1440",
+   "status": 200,
+   "headers": {
+    "accept-ranges": "bytes",
+    "access-control-allow-origin": "*",
+    "age": "8",
+    "cache-control": "max-age=600",
+    "content-encoding": "gzip",
+    "content-length": "2605",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 28 Oct 2026 13:54:57 GMT",
+    "etag": "W/\"6ae1fd2e-17f4\"",
+    "expires": "Wed, 28 Oct 2026 14:03:51 GMT",
+    "last-modified": "Wed, 28 Oct 2026 13:48:30 GMT",
+    "server": "GitHub.com",
+    "strict-transport-security": "max-age=31556952",
+    "vary": "Accept-Encoding",
+    "via": "1.1 varnish",
+    "x-cache": "HIT",
+    "x-cache-hits": "2",
+    "x-fastly-request-id": "3a57dafea4b34f0289aaba88a358c6a1806c7532",
+    "x-github-edge-region": "southeastasia",
+    "x-github-request-id": "C746:1E9DE1:43B818:470927:6AE1FE6E",
+    "x-proxy-cache": "MISS",
+    "x-served-by": "cache-hkg-vhhh8650043-HKG",
+    "x-timer": "S1793195698.819283,VS0,VE0"
+   },
+   "metrics": {
+    "ttfb": 832,
+    "dcl": 844,
+    "load": 1223,
+    "fcp": 1096,
+    "lcp": 1096,
+    "cls": 0.0173,
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "docHeight": 1259,
+    "overflowing": [],
+    "smallTargets": [
+     "lamnv260398@gmail.com 172x17",
+     "Privacy Policy 88x17"
+    ],
+    "fontsLoaded": [
+     "Alegreya 800 normal",
+     "Alegreya Sans 400 normal",
+     "Alegreya Sans 700 normal",
+     "Alegreya Sans 800 normal"
+    ]
+   },
+   "requests": 8,
+   "totalBytes": 120515,
+   "thirdPartyHosts": [
+    "fonts.googleapis.com",
+    "fonts.gstatic.com"
+   ],
+   "requestList": [
+    "document 200 3029 https://nguyenvanlamm.github.io/skepfield-site/support.html",
+    "image 200 479 https://nguyenvanlamm.github.io/skepfield-site/assets/logo-mark.svg",
+    "stylesheet 200 1360 https://fonts.googleapis.com/css2?family=Alegreya:wght@700;800&family=Alegreya+Sans:wght@400;700;800&display=s",
+    "font 200 23737 https://fonts.gstatic.com/s/alegreyasans/v28/5aUz9_-1phKLFgshYDvh6Vwt7VptvQ.woff2",
+    "font 200 24005 https://fonts.gstatic.com/s/alegreyasans/v28/5aUu9_-1phKLFgshYDvh6Vwt5eFIqEp2iw.woff2",
+    "font 200 23985 https://fonts.gstatic.com/s/alegreyasans/v28/5aUu9_-1phKLFgshYDvh6Vwt5f1LqEp2iw.woff2",
+    "font 200 43508 https://fonts.gstatic.com/s/alegreya/v41/4UaBrEBBsBhlBjvfkSLhx6g.woff2",
+    "other 200 412 https://nguyenvanlamm.github.io/skepfield-site/favicon.svg"
+   ],
+   "focus": [
+    {
+     "tag": "A",
+     "text": "Skepfield",
+     "href": "./",
+     "outline": "solid 3px rgb(168, 114, 31)"
+    },
+    {
+     "tag": "A",
+     "text": "lamnv260398@gmail.com",
+     "href": "mailto:lamnv260398@gmail.com",
+     "outline": "solid 3px rgb(168, 114, 31)"
+    },
+    {
+     "tag": "A",
+     "text": "Privacy Policy",
+     "href": "privacy.html",
+     "outline": "solid 3px rgb(168, 114, 31)"
+    },
+    {
+     "tag": "A",
+     "text": "Home",
+     "href": "./",
+     "outline": "solid 3px rgb(168, 114, 31)"
+    },
+    {
+     "tag": "A",
+     "text": "Privacy",
+     "href": "privacy.html",
+     "outline": "solid 3px rgb(168, 114, 31)"
+    },
+    null,
+    {
+     "tag": "A",
+     "text": "Skepfield",
+     "href": "./",
+     "outline": "solid 3px rgb(168, 114, 31)"
+    },
+    {
+     "tag": "A",
+     "text": "lamnv260398@gmail.com",
+     "href": "mailto:lamnv260398@gmail.com",
+     "outline": "solid 3px rgb(168, 114, 31)"
+    },
+    {
+     "tag": "A",
+     "text": "Privacy Policy",
+     "href": "privacy.html",
+     "outline": "solid 3px rgb(168, 114, 31)"
+    },
+    {
+     "tag": "A",
+     "text": "Home",
+     "href": "./",
+     "outline": "solid 3px rgb(168, 114, 31)"
+    },
+    {
+     "tag": "A",
+     "text": "Privacy",
+     "href": "privacy.html",
+     "outline": "solid 3px rgb(168, 114, 31)"
+    },
+    null
+   ]
+  },
+  {
+   "page": "privacy.html",
+   "viewport": "m390",
+   "status": 200,
+   "metrics": {
+    "ttfb": 1236,
+    "dcl": 1257,
+    "load": 1651,
+    "fcp": 1484,
+    "lcp": 1484,
+    "cls": 0,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "docHeight": 1883,
+    "overflowing": [],
+    "smallTargets": [
+     "Skepfield support 115x17"
+    ],
+    "fontsLoaded": [
+     "Alegreya 800 normal",
+     "Alegreya Sans 400 normal",
+     "Alegreya Sans 700 normal"
+    ]
+   },
+   "requests": 7,
+   "totalBytes": 96667,
+   "thirdPartyHosts": [
+    "fonts.googleapis.com",
+    "fonts.gstatic.com"
+   ],
+   "requestList": [
+    "document 200 3130 https://nguyenvanlamm.github.io/skepfield-site/privacy.html",
+    "image 200 515 https://nguyenvanlamm.github.io/skepfield-site/assets/logo-mark.svg",
+    "stylesheet 200 1360 https://fonts.googleapis.com/css2?family=Alegreya:wght@700;800&family=Alegreya+Sans:wght@400;700;800&display=s",
+    "font 200 23737 https://fonts.gstatic.com/s/alegreyasans/v28/5aUz9_-1phKLFgshYDvh6Vwt7VptvQ.woff2",
+    "font 200 24005 https://fonts.gstatic.com/s/alegreyasans/v28/5aUu9_-1phKLFgshYDvh6Vwt5eFIqEp2iw.woff2",
+    "font 200 43508 https://fonts.gstatic.com/s/alegreya/v41/4UaBrEBBsBhlBjvfkSLhx6g.woff2",
+    "other 200 412 https://nguyenvanlamm.github.io/skepfield-site/favicon.svg"
+   ],
+   "focus": []
+  },
+  {
+   "page": "privacy.html",
+   "viewport": "m320",
+   "status": 200,
+   "metrics": {
+    "ttfb": 3330,
+    "dcl": 3345,
+    "load": 3675,
+    "fcp": 3548,
+    "lcp": 3548,
+    "cls": 0,
+    "scrollWidth": 320,
+    "clientWidth": 320,
+    "docHeight": 2263,
+    "overflowing": [],
+    "smallTargets": [
+     "Skepfield support 115x17"
+    ],
+    "fontsLoaded": [
+     "Alegreya 800 normal",
+     "Alegreya Sans 400 normal",
+     "Alegreya Sans 700 normal"
+    ]
+   },
+   "requests": 7,
+   "totalBytes": 96650,
+   "thirdPartyHosts": [
+    "fonts.googleapis.com",
+    "fonts.gstatic.com"
+   ],
+   "requestList": [
+    "document 200 3127 https://nguyenvanlamm.github.io/skepfield-site/privacy.html",
+    "image 200 525 https://nguyenvanlamm.github.io/skepfield-site/assets/logo-mark.svg",
+    "stylesheet 200 1360 https://fonts.googleapis.com/css2?family=Alegreya:wght@700;800&family=Alegreya+Sans:wght@400;700;800&display=s",
+    "font 200 24005 https://fonts.gstatic.com/s/alegreyasans/v28/5aUu9_-1phKLFgshYDvh6Vwt5eFIqEp2iw.woff2",
+    "font 200 23737 https://fonts.gstatic.com/s/alegreyasans/v28/5aUz9_-1phKLFgshYDvh6Vwt7VptvQ.woff2",
+    "font 200 43508 https://fonts.gstatic.com/s/alegreya/v41/4UaBrEBBsBhlBjvfkSLhx6g.woff2",
+    "other 200 388 https://nguyenvanlamm.github.io/skepfield-site/favicon.svg"
+   ],
+   "focus": []
+  },
+  {
+   "page": "privacy.html",
+   "viewport": "d1440",
+   "status": 200,
+   "headers": {
+    "accept-ranges": "bytes",
+    "access-control-allow-origin": "*",
+    "age": "9",
+    "cache-control": "max-age=600",
+    "content-encoding": "gzip",
+    "content-length": "2704",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 28 Oct 2026 13:55:11 GMT",
+    "etag": "W/\"6ae1fd2e-194c\"",
+    "expires": "Wed, 28 Oct 2026 14:05:01 GMT",
+    "last-modified": "Wed, 28 Oct 2026 13:48:30 GMT",
+    "server": "GitHub.com",
+    "strict-transport-security": "max-age=31556952",
+    "vary": "Accept-Encoding",
+    "via": "1.1 varnish",
+    "x-cache": "HIT",
+    "x-cache-hits": "1",
+    "x-fastly-request-id": "9c169a171236c38258e5d60d4e3809dc81e5da9f",
+    "x-github-edge-region": "southeastasia",
+    "x-github-request-id": "7B06:28C552:434DDF:46A03E:6AE1FEB5",
+    "x-proxy-cache": "MISS",
+    "x-served-by": "cache-hkg-vhhh8650061-HKG",
+    "x-timer": "S1793195711.169211,VS0,VE1"
+   },
+   "metrics": {
+    "ttfb": 611,
+    "dcl": 632,
+    "load": 1015,
+    "fcp": 828,
+    "lcp": 828,
+    "cls": 0.0257,
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "docHeight": 1480,
+    "overflowing": [],
+    "smallTargets": [
+     "Skepfield support 115x17"
+    ],
+    "fontsLoaded": [
+     "Alegreya 800 normal",
+     "Alegreya Sans 400 normal",
+     "Alegreya Sans 700 normal"
+    ]
+   },
+   "requests": 7,
+   "totalBytes": 96654,
+   "thirdPartyHosts": [
+    "fonts.googleapis.com",
+    "fonts.gstatic.com"
+   ],
+   "requestList": [
+    "document 200 3127 https://nguyenvanlamm.github.io/skepfield-site/privacy.html",
+    "stylesheet 200 1360 https://fonts.googleapis.com/css2?family=Alegreya:wght@700;800&family=Alegreya+Sans:wght@400;700;800&display=s",
+    "image 200 502 https://nguyenvanlamm.github.io/skepfield-site/assets/logo-mark.svg",
+    "font 200 24005 https://fonts.gstatic.com/s/alegreyasans/v28/5aUu9_-1phKLFgshYDvh6Vwt5eFIqEp2iw.woff2",
+    "font 200 23737 https://fonts.gstatic.com/s/alegreyasans/v28/5aUz9_-1phKLFgshYDvh6Vwt7VptvQ.woff2",
+    "font 200 43508 https://fonts.gstatic.com/s/alegreya/v41/4UaBrEBBsBhlBjvfkSLhx6g.woff2",
+    "other 200 415 https://nguyenvanlamm.github.io/skepfield-site/favicon.svg"
+   ],
+   "focus": [
+    {
+     "tag": "A",
+     "text": "Skepfield",
+     "href": "./",
+     "outline": "solid 3px rgb(168, 114, 31)"
+    },
+    {
+     "tag": "A",
+     "text": "Skepfield support",
+     "href": "support.html",
+     "outline": "solid 3px rgb(168, 114, 31)"
+    },
+    {
+     "tag": "A",
+     "text": "Home",
+     "href": "./",
+     "outline": "solid 3px rgb(168, 114, 31)"
+    },
+    {
+     "tag": "A",
+     "text": "Support",
+     "href": "support.html",
+     "outline": "solid 3px rgb(168, 114, 31)"
+    },
+    null,
+    {
+     "tag": "A",
+     "text": "Skepfield",
+     "href": "./",
+     "outline": "solid 3px rgb(168, 114, 31)"
+    },
+    {
+     "tag": "A",
+     "text": "Skepfield support",
+     "href": "support.html",
+     "outline": "solid 3px rgb(168, 114, 31)"
+    },
+    {
+     "tag": "A",
+     "text": "Home",
+     "href": "./",
+     "outline": "solid 3px rgb(168, 114, 31)"
+    },
+    {
+     "tag": "A",
+     "text": "Support",
+     "href": "support.html",
+     "outline": "solid 3px rgb(168, 114, 31)"
+    },
+    null,
+    {
+     "tag": "A",
+     "text": "Skepfield",
+     "href": "./",
+     "outline": "solid 3px rgb(168, 114, 31)"
+    },
+    {
+     "tag": "A",
+     "text": "Skepfield support",
+     "href": "support.html",
+     "outline": "solid 3px rgb(168, 114, 31)"
+    }
+   ]
+  }
+ ]
+}

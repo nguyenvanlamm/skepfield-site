@@ -1,2 +1,5 @@
 .claude/
 .DS_Store
+# audit screenshots and isitagentready scratch stay local; the Markdown/JSON reports are committed
+.reports/**/*.png
+.reports/**/.agent-ready/

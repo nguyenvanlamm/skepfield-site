@@ -3,7 +3,9 @@
 Trang giới thiệu tĩnh của **Skepfield**, game logic tổ ong cho iPhone (repo game: `skepfield`). Chữ trên trang là
 tiếng Anh. Địa chỉ: https://nguyenvanlamm.github.io/skepfield-site/
 
-- `index.html`: trang chính (một file, CSS nội tuyến, không JS, font Alegreya qua Google Fonts).
+- `index.html`: trang chính (một file, CSS nội tuyến, không JS). Font Alegreya 800 và Alegreya Sans 400/500/700/800
+  tự host trong `assets/fonts/` (bộ ký tự latin, file woff2 lấy từ Google Fonts, giấy phép SIL OFL 1.1 kèm theo), nên
+  trang không gửi request nào tới máy chủ bên thứ ba.
 - `privacy.html`: chính sách quyền riêng tư (Privacy Policy URL cho App Store Connect).
 - `support.html`: trang hỗ trợ (Support URL cho App Store Connect).
 - `404.html`: trang lỗi (noindex, link tuyệt đối `/skepfield-site/...` vì GitHub Pages trả nó ở mọi đường dẫn sai).

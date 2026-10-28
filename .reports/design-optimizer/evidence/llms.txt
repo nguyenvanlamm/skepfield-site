@@ -1,0 +1,19 @@
+# nguyenvanlamm.github.io
+
+> Projects by nguyenvanlamm.
+
+- [Tile Bloom](https://nguyenvanlamm.github.io/tile-bloom-site/llms.txt): a calm rotation puzzle made from Vietnamese cement tiles
+- [Coin Cubby](https://nguyenvanlamm.github.io/coin-cubby-site/llms.txt): a coin sort and merge puzzle for iPhone, coming soon
+- [Nightwall](https://nguyenvanlamm.github.io/nightwall-site/llms.txt): a one-tap stealth ninja climbing game for iPhone, coming soon
+- [Lowtide Locks](https://nguyenvanlamm.github.io/lowtide-locks-site/llms.txt): a calm isometric mirror puzzle for iPhone, coming soon
+- [Haboob Run](https://nguyenvanlamm.github.io/haboob-run-site/llms.txt): a top-down arcade road game for iPhone where you refuel by drafting, coming soon
+- [Tiptoe Tabby](https://nguyenvanlamm.github.io/tiptoe-tabby-site/llms.txt): a calm cat balance puzzle for iPhone, walking on knitting needles over a wet floor, coming soon
+- [Brinestack](https://nguyenvanlamm.github.io/brinestack-site/llms.txt): a tactical dive game for iPhone where you restack towed decks to meet sea creatures at every height, coming soon
+- [Hadal Relay](https://nguyenvanlamm.github.io/hadal-relay-site/llms.txt): a side-scrolling deep-sea shooter for iPhone and iPad where every failed dive comes back as a relay that fights beside you, coming soon
+- [Snowpack Hop](https://nguyenvanlamm.github.io/snowpack-hop-site/llms.txt): a one-tap fox platformer for iPhone where every critter you stomp becomes a snow block you climb, coming soon
+- [Nibblume](https://nguyenvanlamm.github.io/nibblume-site/llms.txt): a lanternfish game for iPhone where your glow lures prey and shows you to red-eyed hunters, coming soon
+- [Chiselturn](https://nguyenvanlamm.github.io/chiselturn-site/llms.txt): a calm turntable puzzle for iPhone where you turn a block of coloured stone and carve it one chisel at a time, coming soon
+- [Ochrecut](https://nguyenvanlamm.github.io/ochrecut-site/llms.txt): a calm iPhone puzzle where you dig clay so mineral pigment pours like sand into matching glazed pots, coming soon
+- [Beamfork](https://nguyenvanlamm.github.io/beamfork-site/llms.txt): a calm light-and-mirror puzzle for iPhone, coming soon
+- [Slipchute](https://nguyenvanlamm.github.io/slipchute-site/llms.txt): a calm sorting puzzle for iPhone where one swipe tilts the tray and every parcel slides toward its own chute, coming soon
+- [Skepfield](https://nguyenvanlamm.github.io/skepfield-site/llms.txt): a calm logic puzzle for iPhone where you place one straw beehive in every plot of a patchwork farm and numbered stones count the hives around them, coming soon
